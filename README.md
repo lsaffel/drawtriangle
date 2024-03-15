@@ -9,3 +9,12 @@ Like this:
  & & & & &  
  & & & & & &  
  & & & & & & &
+
+Then, it prints a couple of lines and then the triangle in reverse, like this:
+& & & & & & &  
+ & & & & & &  
+ & & & & &  
+ & & & &  
+ & & &  
+ & &  
+ &
