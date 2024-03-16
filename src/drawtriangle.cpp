@@ -12,6 +12,7 @@ int main() {
     // cin >> symbol;
     symbol = '&';
 
+    // draw a triangle starting with the narrow side at the top
     for(int i = 1; i <= length; i++) {
         for(int j = 1; j <= i; j++) {
             cout << setw(2) << symbol;
@@ -20,7 +21,7 @@ int main() {
     }
     cout << endl << endl;
 
-
+    // draw another triangle starting with the wide side at the top
     for(int i = length; i >= 1; i--) {
         for(int j = 1; j <= i; j++) {
             cout << setw(2) << symbol;
